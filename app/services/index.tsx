@@ -38,7 +38,7 @@ export default function Services() {
             style={tw`bg-[#DCDCDA] items-center justify-center p-2 rounded-md m-2 w-20 h-24`}
           >
             <Image source={service.img} style={tw`h-10 w-10 rounded-md`} />
-            <Text style={tw`font-bold text-sm text-center mt-1`}>{service.name}</Text>
+            <Text style={tw`font-bold text-xs text-center mt-1`}>{service.name}</Text>
           </Pressable>
         ))}
       </View>

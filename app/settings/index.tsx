@@ -25,8 +25,7 @@ export default function SettingPage() {
        <Feather name="chevron-right" size={24} color="black" />
        </Pressable>
 <Pressable
-        style={tw `flex-row justify-between items-center border border-[#5B00BF] p-3 rounded-lg`}
-       onPress={()=>router.push('/settings/password')}>
+        style={tw `flex-row justify-between items-center border border-[#5B00BF] p-3 rounded-lg`}>
        <Text style={tw `text-lg font-bold text-gray-500`}>Privacy Policy</Text>
        <Feather name="chevron-right" size={24} color="black" />
        </Pressable>
