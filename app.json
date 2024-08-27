@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "bantbill_v1",
-    "slug": "bantbill_v1",
+    "name": "bantbill",
+    "slug": "bantbill",
+    "scheme": "myapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +19,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hasashi.bantbill"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1ab57bc7-7e27-4e72-ad94-75a84dc51fa1"
+      }
     }
   }
 }
